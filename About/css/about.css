@@ -1,0 +1,238 @@
+
+.zdiv{
+width: 1120px;
+height: auto;
+padding: 0;
+margin: 0 auto;
+margin-top: 50px;
+}
+.zdiv1{
+	width: 1120px;
+	height: 700px;
+	background: url(../img/about1bg01.png);	
+}
+.zdiv1 span{
+	font-family: "微软雅黑";
+	display: block;
+	width: 300px;
+	height: 80px;
+	margin: 0 auto;
+	font-size: 17pt;
+	text-align: center;
+}
+.zdiv1 p{
+	font-family: "微软雅黑";
+	font-size: 12pt;
+	line-height: 30px;
+	width: 1000px;
+	height: 130px;
+	margin: 0 auto;
+}
+.zdiv2{
+	position: relative;
+	width: 1120px;
+	height: 640px;
+	background: url(../img/aboutbg2.png)
+}
+
+.zimg1{
+	background: url(../img/about02.jpg) no-repeat;
+	background-size:160px 160px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.zimg1 img{
+	opacity: 0;
+
+}
+.zimg1 img:hover{
+	opacity: 1;
+}
+
+
+.zimg2 img{
+	width: 320px;
+	height: 320px;
+	position: absolute;
+	top: 0;
+	left: 160px;
+}
+
+.zimg3{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url(../img/about03.jpg) no-repeat;
+	background-size:160px 160px;
+}
+.zimg3 img{
+	opacity: 0;
+}
+.zimg3 img:hover{
+	opacity: 1;
+}
+
+
+.zimg4{
+	position: absolute;
+	top: 0;
+	left: 640px;
+	background: url(../img/about04.jpg) no-repeat;
+	background-size:160px 160px;
+}
+.zimg4 img{
+	opacity: 0;
+}
+.zimg4 img:hover{
+	opacity: 1;
+}
+
+
+.zimg5{
+	position: absolute;
+	top: 160px;
+	right: 0;
+	background: url(../img/about05.jpg) no-repeat;
+	background-size:160px 160px;
+}
+.zimg5 img{
+	opacity: 0;
+}
+.zimg5 img:hover{
+	opacity: 1;
+}
+
+
+.zimg6{
+	position: absolute;
+	top: 160px;
+	right: 160px;
+	background: url(../img/about06.jpg) no-repeat;
+	background-size:160px 160px;
+}
+.zimg6 img{
+	opacity: 0;
+}
+.zimg6 img:hover{
+	opacity: 1;
+}
+
+
+.zimg7{
+	position: absolute;
+	top: 160px;
+	right: 480px;
+	background: url(../img/about07.jpg) no-repeat;
+	background-size:160px 160px;
+
+}
+.zimg7 img{
+	opacity: 0;
+}
+.zimg7 img:hover{
+	opacity: 1;
+}
+.zimg8{
+	position: absolute;
+	top: 320px;
+	left: 0;
+	background: url(../img/about08.jpg) no-repeat;
+	background-size:160px 160px;
+}
+.zimg8 img{
+	opacity: 0;
+}
+.zimg8 img:hover{
+	opacity: 1;
+}
+
+
+.zimg9{
+	position: absolute;
+	top: 320px;
+	left: 160px;
+	background: url(../img/about09.jpg) no-repeat;
+	background-size:160px 160px;
+}
+.zimg9 img{
+	opacity: 0;
+}
+.zimg9 img:hover{
+	opacity: 1;
+}
+.zimg10{
+	background: url(../img/about010.jpg) no-repeat;
+	background-size:160px 160px;
+	position: absolute;
+	top: 320px;
+	left: 480px;
+}
+.zimg10 img{
+	opacity: 0;
+}
+.zimg10 img:hover{
+	opacity: 1;
+}
+
+.zimg11{
+	background: url(../img/about013.jpg) no-repeat;
+	background-size:320px 320px;
+	position: absolute;
+	top: 320px;
+	left: 640px;
+}
+.zimg11 img{
+	opacity: 0;
+}
+.zimg11 img:hover{
+	opacity: 1;
+}
+
+.zimg12{
+	background: url(../img/about011.jpg) no-repeat;
+	background-size:160px 160px;
+	position: absolute;
+	top: 480px;
+	left: 320px;
+
+}
+.zimg12 img{
+	opacity: 0;
+}
+.zimg12 img:hover{
+	opacity: 1;
+}
+
+.zimg13{
+	background: url(../img/about012.jpg) no-repeat;
+	background-size:160px 160px;
+	position: absolute;
+	top: 480px;
+	right: 0;
+
+}
+.zimg13 img{
+	opacity: 0;
+}
+.zimg13 img:hover{
+	opacity: 1;
+}
+
+.zimg14{
+	background: url(../img/about014.jpg) no-repeat;
+	background-size:160px 160px;
+	position: absolute;
+	top: 480px;
+	left: 0;
+}
+.zimg14 img{
+	opacity: 0;
+}
+.zimg14 img:hover{
+	opacity: 1;
+}
+
+
+       
+

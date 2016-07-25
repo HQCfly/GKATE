@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>GKATE团队|官方网站</title>
+		<link rel="stylesheet" type="text/css" href="css/nav.css"/> 
+		<link rel="stylesheet" type="text/css" href="css/content.css" />
+	</head>
+	<body>	
+		<!--head结束-->
+		<div class="head">	
+			<!--logo开始-->
+			<div class="head_logo">
+				<div class="head_logo_top">
+					<img src="img/logo.png"/>
+					GKATE
+				</div>
+				<img src="img/logo2.png" id="logo2">
+			</div><!--logo结束-->
+			
+			<!--导航开始-->
+			<ul>
+				<li><a href="../Dynamic/index.html">Home</a></li>
+				<li><a href="../About/index.html">About</a></li>
+				<li><a href="../Case/index.html" id="head_nav_index">Case</a></li>
+				<li><a href="../Dynamic/index.html">Dynamic</a></li>
+			</ul><!--导航结束-->
+			
+			<div class="head_weixin">
+				<img src="../Home/img/weixin.jpg"/ id="hover">
+				<div id="show">
+					<img src="../Home/img/weixin.png"/>
+				</div>
+			</div>
+		</div><!--head结束-->
+		
+		<!--内容开始-->
+		<div class="content">
+			<span class="nav_now"><a href="index.html">Case</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="#" class="a_style">程序员修炼之道</a></span>
+			
+			<div id="content1">
+				<div class="content1_in">
+					<span class="title">程序员修炼之道  </span>   
+					<span class="title2">作者：周洋 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;时间：2009-12-02</span>
+					<div style="font-size: 11pt;">
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最近发现一本叫做《The Pragmatic Programmer/程序员修炼之道》的书，用了一周左右读完，启发很大，
+						在这里晒一下自己的读书笔记，谈不上去粗取精，只是给没有时间详细读此书的朋友们参考参考，如有不足，欢迎指教。
+						<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注重实效的哲学 / A Pragmatic Philosophy<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Provide Options ，Don’t Make Lame Excuses./ 提供各种选择，不要找蹩脚的借口。
+						负责的态度。出了问题，要承担责任。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Don’t Live with Broken Windows / 不要容忍破窗户。
+						在这里破窗口指:低劣的设计、错误决策、或是糟糕的代码。发现就要马上修正，即使现在没有时间进行适当的修理，也要用木板把它钉起来，防止造成进一步破坏。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Be a Catalyst for Change / 做变化的催化剂
+						读者可以自己google “石头汤的故事”，此处变化的催化剂就是故事中的士兵。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Remember the Big Picture / 记住大图景
+						不要忽略小的症状，大多数软件灾难都是从微不足道的小事情开始的，常常是小事情的积累破坏了士气和团队，要留心大图景。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Know When to Have a Stop / 知道何时止步。
+						代码也许不完美，但是不要难过担心，它不可能完美。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. 知识上的投资总能得到最好的回报。     -----------本杰明.富兰克林
+						如他所说，要定期为自己充电，为自己进行资产投资。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. It’s Both What You Say and the Way You Say It. / 你说什么和你怎么说同样重要。
+						除非你能够有效的与他人交流，否则就算你用友最好的主意、最漂亮的代码、或是最注重失效的想法，最终也会毫无结果。<br />
+						<br /> 
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注重实效的途径 / A Pragmatic Approach<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8. DRY – Don’t Repeat Yourself. / 不要重复你自己
+						无论是因为环境、自己的无意识、懒惰还是不同开发者之间造成的重复，无论是代码还是注释，都要竭力避免，否则对于以后项目的重构都要带来难以置信的工作量。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9. Make It Easy to Reuse / 让复用变得容易。
+						你所要做的是要营造一种环境，在其中要找到并复用已有的东西，比自己编写供容易。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10. Eliminate Effects Between Unrelated Things / 消除无关事务之间的影响
+						简单说来就是高内聚，低耦合。要养成不断批判对待自己代码的习惯，打造正交的系统，提高生产效率、降低项目重构时崩溃的风险。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11. There’re no final decisions. / 不存在最终的决策。
+						为你的系统设计灵活的架构，做好关键决策变化的准备。简单的例子就如:系统数据库由SQL-Server变更为Oracle数据库，系统的代码就可能重新编写。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12. Use Tracer Bullets to Find the Target. / 用曳光弹找到目标
+						在需求不明确时，用所有确定的因素搭建一个临时框架，最快速的把产品呈现在用户眼前。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13. Estimate to Avoid Surprises. / 估算，以避免发生意外。
+						估算是一种能力，你可以估算项目的进度，你可以知道那些子系统需要优化，而哪些可以暂时放在一边等等。<br />
+						<br /> 
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;基本工具/ The Basic Tools<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14. GUI 好处和坏处
+						好处: WYSIWYG---What You See Is What You Get.
+						坏处: WYSIAYG ---What You See Is All You Get.<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15. Use the Power of Command Shells / 利用命令shell的力量
+						通过使用命令Shell，你会惊讶它能是你的生产效率带来怎样的提高。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16. Use a Single Editor Well / 用好一种编辑器
+						选一种编辑器，彻底了解它，并将其用于所有的编辑任务。不用停下来思考怎样完成文本操作:必须的键击将成为本能反应，编辑器将成为你双手的延伸；键会划过文本和思想时唱起歌来。当然，要确保此编辑器要能在你使用的所有平台上使用。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;17. Always Use Source Code Control / 总是使用源码控制
+						进步远非由变化组成，而是取决于好记性。不能记住过去的人，被判重复过去。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;18. Fix the Problem , Not the Blame / 要修正问题，而不是发出指责
+						Bug是你的过错还是别人的过错，并不是真的很有关系。它仍然是你的问题。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;19. Don’t Panic / 不要恐慌
+						就算你有个神经质的老板或客户在你的脖子后面喘气，也不要惊慌，稳定心态找出问题的根源。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20. Don’t Assume it – Prove it / 不要假定，要证明     
+						当面对某个让你吃惊的Bug时，你必须重新评估你确信不疑的”事实”，少一些假定，多一些证明。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21. Learn a Text Manipulation Language / 学习一种文本操作语言
+						我们每天几乎都在使用文本操作语言，与其他语言相比，许多想法都可以通过它简单的实现。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22. Write Code That Writes Code / 编写能编写代码的代码
+						如果想避免重复订的打字，是自己免于腕部劳损综合征，那么试一试写一个代码生成器吧。<br />
+						<br /> 
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注重实效的偏执/Pragmatic Paranoia<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;23. You Can’t Write Perfect Software. / 你不可能写出完美的软件。
+						在计算机技术简短的历史中，没有人曾经写出过一个完美的软件。你也不大可能成为第一个。别把时间和经历浪费在追逐不可能实现的梦想上。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;24. If It Can’t Happen, Use Assertions to Ensure That It Won’t ./ 如果它不可能发生，用断言确保它不会发生。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;25. Use Exceptions for Exceptional Problems. / 将异常用于异常的问题。
+						为了避免遭受经典的意大利面条式代码的所有可读性和可维护行问题的折磨。巧妙的使用异常，将大大简化代码的逻辑。<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;26. Finish What You Start. / 要有始有终
+						此提示适用于处理资源分配及相关的操作(如文件读写、事务、内存、线程、窗口等)，退出程序时要释放资源。<br />
+					</div>
+					<br /> 
+					<br /> 
+					<span class="title3">转载自：周洋的博客&nbsp;(<a href="http://aspnetdb.iteye.com">http://aspnetdb.iteye.com</a>)</span>
+					
+					
+				</div>
+			</div>
+			
+			<div id="content2"> 
+				<span class="conten2_tab">标签：文章  程序员  学习</span>
+				<div class="conten2_send">
+					<span>文章推荐：</span>
+					<ul>
+						<li><a href="#">《程序员修炼之道》</a></li>
+						<li><a href="#">《程序员修炼之道》</a></li>
+						<li><a href="#">《程序员修炼之道》</a></li>
+						<li><a href="#">《程序员修炼之道》</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--内容结束-->
+		
+		<!--foot开始-->
+		<div class="foot">
+			<p>Copyright © 2015 - 2016 GKATE. All Rights Reserved</p>
+		</div><!--foot结束-->
+		
+	<script>
+		window.onload = function(){
+			oHover = document.getElementById("hover");
+			oShow = document.getElementById("show");
+			
+			oHover.onmousemove = function(){
+				oShow.style.display="block";
+			}
+			
+			oHover.onmouseout = function(){	
+				oShow.style.display="none";
+			}
+			
+			
+		}	
+	</script>
+
+	</body>
+</html>

@@ -1,0 +1,73 @@
+#show_content{
+	margin: 0 auto;
+	width: 1120px;
+	margin-top: 20px;
+	height: 300px;
+}
+#show_content_in img{
+	height: 300px;
+	width: 260px;
+	z-index: 10;
+
+}
+#show_content_in{
+	width: 260px;
+	height: 300px;
+	position: relative;
+	float: left;
+	margin-right: 20px;
+	border: 1px solid rgba(0,0,0,0.3);
+	
+}
+.shade{
+	width: 260px;
+	height: 300px;
+	z-index: 100;
+	background: rgba(0,0,0,0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 1s,ease;
+	-webkit-transition: 1s,ease;
+	-moz-transition: 1s,ease;
+	-ms-transition: 1s,ease;
+	
+}
+
+.shade:hover{
+	background: rgba(0,0,0,0.4);
+}
+.shade:hover span{
+	color: #FFFFFF;
+}
+.shade span{
+	font-family: "微软雅黑";
+	color: rgba(0,0,0,0);
+	font-size: 13pt;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 130px;
+	width: 150px;
+	z-index: 110;
+	transition: 1s,ease;
+	-webkit-transition: 1s,ease;
+	-moz-transition: 1s,ease;
+	-ms-transition: 1s,ease;
+}
+
+#team_content{
+	margin: 0 auto;
+	width: 1120px;
+	margin-top: 20px;
+	height: 250px;
+}
+
+#team_content div{
+	float: left;
+}
+#team_content p{
+	width: 600px;
+	margin-top: 20px;
+	line-height: 30px;
+}

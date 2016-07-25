@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>GKATE团队|官方网站</title>
+		<link rel="stylesheet" type="text/css" href="css/nav.css"/> 
+		<link rel="stylesheet" type="text/css" href="css/case.css"/>
+		<script>
+			function showTIP(x){
+				var a=document.getElementById(x);
+				a.style.display="block";
+			}
+			function hideTIP(x){
+				var b=document.getElementById(x);
+				b.style.display="none";
+			}
+		</script>
+	</head>
+	<body>	
+		<!--head结束-->
+		<div class="head">	
+			<!--logo开始-->
+			<div class="head_logo">
+				<div class="head_logo_top">
+					<img src="img/logo.png"/>
+					GKATE
+				</div>
+				<img src="img/logo2.png" id="logo2">
+			</div><!--logo结束-->
+			
+			<!--导航开始-->
+			<ul>
+				<li><a href="../Home/index.html" >Home</a></li>
+				<li><a href="../About/index.html">About</a></li>
+				<li><a href="#" id="head_nav_index">Case</a></li>
+				<li><a href="../Dynamic/index.html">Dynamic</a></li>
+			</ul><!--导航结束-->
+			
+			<div class="head_weixin">
+				<img src="../Home/img/weixin.jpg"/ id="hover">
+				<div id="show">
+					<img src="../Home/img/weixin.png"/>
+				</div>
+			</div>
+		</div><!--head结束-->
+		
+		<!--内容开始-->
+		<div class="Business">
+			<div class="Business_Design">
+				<p>网页设计</p>
+					<img src="img/软件学院web.png" class="Business_img1"  id="Business_software"  onmouseover="showTIP('Business_software_henu')"   onmouseout="hideTIP('Business_software_henu')"/>
+					<div id="Business_software_henu" onmouseover="showTIP('Business_software_henu')"   onmouseout="hideTIP('Business_software_henu')">河南大学软件学院官方网站</div>
+					<img src="img/招办web.png"  class="Business_img1" onmouseover="showTIP('Business_henu')"   onmouseout="hideTIP('Business_henu')"/>
+					<div id="Business_henu" onmouseover="showTIP('Business_henu')"   onmouseout="hideTIP('Business_henu')">河南大学招生办官方网站</div>
+					<img src="img/home.jpg" class="Business_img1" onmouseover="showTIP('Business_GKATE')"   onmouseout="hideTIP('Business_GKATE')"/>
+					<div id="Business_GKATE" onmouseover="showTIP('Business_GKATE')"   onmouseout="hideTIP('Business_GKATE')">GKATE官方网站</div>
+			</div>
+			<div class="Business_Design">
+				<p>平面设计</p>
+				<img src="img/des001.jpg"  class="Business_img1" />
+				<img  src="img/des002.jpg" class="Business_img1" />
+				<img  src="img/des003.jpg" class="Business_img1" />
+			</div>
+			<div class="Business_Design">
+				<p>技术分享</p>
+				<img src="img/share001.jpg" class="Business_img2"/>
+				<div class="Business_road1"><a href="Dynamic.html">前段工程师修炼之道</a></div>
+				<img src="img/share002.jpg" class="Business_img2"/>
+				<div class="Business_road2"><a href="Dynamic.html">前段工程师修炼之道</a></div>
+				<img src="img/share003.jpg" class="Business_img2"/>
+				<div class="Business_road3"><a href="Dynamic.html">前段工程师修炼之道</a></div>
+				<img src="img/share004.jpg" class="Business_img2"/>
+				<div class="Business_road4"><a href="Dynamic.html">前段工程师修炼之道</a></div>
+				<img src="img/share005.jpg" class="Business_img2"/>
+				<div class="Business_road5"><a href="Dynamic.html">前段工程师修炼之道</a></div>
+				<img src="img/sahre006.jpg" class="Business_img2"/>
+				<div class="Business_road6"><a href="Dynamic.html">前段工程师修炼之道</a></div>
+			</div>
+		</div><!--内容结束-->
+		
+		<!--foot开始-->
+		<div class="foot">
+			<p>Copyright © 2015 - 2016 GKATE. All Rights Reserved</p>
+		</div><!--foot结束-->
+		
+	<script>
+		window.onload = function(){
+			oHover = document.getElementById("hover");
+			oShow = document.getElementById("show");
+			
+			oHover.onmousemove = function(){
+				oShow.style.display="block";
+			}
+			
+			oHover.onmouseout = function(){	
+				oShow.style.display="none";
+			}
+			
+		}
+	</script>
+
+	</body>
+</html>

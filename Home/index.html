@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>GKATE团队|官方网站</title>
+		<link rel="stylesheet" type="text/css" href="css/nav.css"/> 
+		<link rel="stylesheet" type="text/css" href="css/index_banner.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index_show.css" />
+		<script src="js/echarts.js"></script>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.banner.js" type="text/javascript" charset="utf-8"></script>
+       	<script src="js/chart/radar.js"></script>
+       	<script src="js/chart/chord.js"></script>
+       	<script src="js/chart/force.js"></script>
+
+		<script>
+			window.onload = function(){
+				oHover = document.getElementById("hover");
+				oShow = document.getElementById("show");
+				
+				oHover.onmousemove = function(){
+					oShow.style.display="block";
+				}
+				
+				oHover.onmouseout = function(){	
+					oShow.style.display="none";
+				}
+				
+				
+			}
+			
+		</script>
+	</head>
+	<body>
+		
+		<!--head结束-->
+		<div class="head">	
+			<!--logo开始-->
+			<div class="head_logo">
+				<div class="head_logo_top">
+					<img src="img/logo.png"/>
+					GKATE
+				</div>
+				<img src="img/logo2.png" id="logo2">
+			</div><!--logo结束-->
+			
+			<!--导航开始-->
+			<ul>
+				<li><a href="#" id="head_nav_index">Home</a></li>
+				<li><a href="../About/index.html">About</a></li>
+				<li><a href="../Case/index.html">Case</a></li>
+				<li><a href="../Dynamic/index.html">Dynamic</a></li>
+			</ul><!--导航结束-->
+			
+			<div class="head_weixin">
+				<img src="img/weixin.jpg" id="hover">
+				<div id="show">
+					<img src="img/weixin.png"/>
+				</div>
+			</div>
+		</div><!--head结束-->
+		
+
+		
+		<!--轮播开始-->
+			<div class="banner" id="banner">
+				<ul class="banList">
+					<li class="active"><img src="img/img1.jpg"/></li>
+					<li><img  src="img/img2.jpg"/></li>
+					<li><img src="img/img3.jpg"/></li>
+				</ul>
+				<div class="fomW">
+					<div class="jsNav">
+						<a href="javascript:;" class="trigger current"></a>
+						<a href="javascript:;" class="trigger"></a>
+						<a href="javascript:;" class="trigger"></a>
+					</div>
+				</div>
+			</div><!--轮播结束-->
+			
+			
+			
+			<!--可视化开始-->
+			<div id="index_concent_table">
+				<div id="table_title">
+					<span>探索互联网数据之美</span>
+					<p></p>
+					<span style="font-size: 13pt;display: block;margin-top: 40px;">团队以直观的角度洞悉互联网发展趋势</span>
+					
+				</div>
+	            <div id="main1" style="height:450px;width:550px ;float: left;border: 1px solid rgba(0,0,0,0.2);margin-right: 14px;"></div>
+                <div id="main2" style="height:450px;width:550px ;float: left;border: 1px solid rgba(0,0,0,0.2);"></div>
+			</div>
+		<!--可视化结束-->
+		
+		<!--技术展示开始-->
+			<div id="index_concent_show">
+				<div id="show_title">
+					<span>掌握主流技术</span>
+					<p></p>
+					<span style="font-size: 13pt;display: block;margin-top: 40px;">团队成员利用各种资源不断学习掌握主流互联网软件开发</span>
+				</div>
+				
+				<div id="show_content">
+					<div id="show_content_in">
+						<img src="img/picJava.jpg" />
+						<div class="shade"><span>JAVA 项目开发</span></div>
+					</div>
+					<div id="show_content_in">
+						<img src="img/picAndroid.jpg"/>
+						<div class="shade"><span>安卓APP开发</span></div>
+					</div>
+					<div id="show_content_in">
+						<img src="img/picPython.jpg" />
+						<div class="shade"><span>图像、文字、数学处理</span></div>
+					</div>
+					<div id="show_content_in" style="margin-right: 0px;">
+						<img src="img/picHtml.jpg" />
+						<div class="shade"><span>网站与WEB APP开发</span></div>
+					</div>
+				</div>	
+			</div><!--技术展示结束-->
+		
+		
+		<!--团队板块开始-->
+		<div id="index_concent_team">
+			<div id="team_title">
+				<span>团队合作共前进</span>
+				<p></p>
+				<span style="font-size: 13pt;display: block;margin-top: 40px;">团队成员各方面优势互补、协作展现一技之长</span>
+			</div>
+			
+			<div id="team_content">
+				<div style="width: 440px;height: 300px;margin-right: 50px;"><img src="img/team.jpg" style="width: 440px;height: 300px; border: 1px solid rgba(0,0,0,0.3);"></div>
+				<div style="width: 626px;height: 300px;">
+					<p>下看到你依稀在外面等我，微笑的那么美好，开心的如此忘怀。
+						时间的河啊，溜走在手掌，我与你之间的岁月都在你左右，
+						不要再恐惧这一切，我和你明天的天会出现吧。我躲在无法呼吸的时间里，
+						喘不过气，可是我想你啊，手里攥着你的爱啊，说好了吗，怎么这样呢，看着这时光走。</p>
+					<p>下看到你依稀在外面等我，微笑的那么美好，开心的如此忘怀。
+						时间的河啊，溜走在手掌，我与你之间的岁月都在你左右，
+						不要再恐惧这一切，我和你明天的天会出现吧。我躲在无法呼吸的时间里，
+						喘不过气，可是我想你啊，手里攥着你的爱啊，说好了吗，怎么这样呢，看着这时光走。</p>
+				</div>
+			</div>
+			
+		</div><!--团队板块结束-->
+		
+		<!--foot开始-->
+		<div class="foot">
+			<p>Copyright © 2015 - 2016 GKATE. All Rights Reserved</p>
+		</div><!--foot结束-->
+		
+		<script src="js/index_concent_table.js"></script>
+		<script type="text/javascript">//执行图片轮播，勿动！！！
+		
+				$(function(){
+			
+					$(".banner").swBanner();
+					
+					$("#banner").width($(document.body).width());
+					$("#banner img").width($("#banner").width());
+
+					$(window).resize(function(){
+						
+						$("#banner").width($(document.body).width());
+						$("#banner img").width($("#banner").width());
+							
+						$("#banner").height(($(document.body).width())*0.5);	
+						$("#banner img").height(($(document.body).width())*0.5);
+						
+							
+						if($("#banner").width() <= 1120 && $("banner").height() <= 560){
+							
+								$("#banner").width(1120);
+								$("#banner img").width(1120);
+								$("#banner").height(560);	
+								$("#banner img").height(560);
+							}
+					})
+									
+				});
+				
+		</script>
+	</body>
+</html>
